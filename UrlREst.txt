@@ -1,0 +1,8 @@
+Liste des Registres Orphanet et RDConnect
+http://localhost:8080/VirtualPlatformRest/ExperteRessource/PatientRegistries
+Liste des Registres Orphanet
+http://localhost:8080/VirtualPlatformRest/ExperteRessource/PatientRegistries/Orphanet
+Liste des Registres Orphanet
+http://localhost:8080/VirtualPlatformRest/ExperteRessource/PatientRegistries/RDConnect
+Un registe particulier avec son ID exepmel ID=100222
+http://localhost:8080/VirtualPlatformRest/ExperteRessource/Ressource/100222

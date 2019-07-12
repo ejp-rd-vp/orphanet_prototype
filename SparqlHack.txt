@@ -1,0 +1,12 @@
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+prefix dc: <http://purl.org/dc/elements/1.1/>
+prefix cer: <http://www.ejprarediseases.org/EJP/VirtualCatalogue/>
+prefix ordo:<http://www.orpha.net/ORDO/>
+select * where {  ?reg cer:isRelatedTo ordo:Orphanet_558. ?reg cer:country ?pays. ?reg dc:creator ?source. ?reg dc:title ?titre. ?reg foaf:page ?url}
+******
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+prefix dc: <http://purl.org/dc/elements/1.1/>
+prefix cer: <http://www.ejprarediseases.org/EJP/VirtualCatalogue/>
+select * where {
+ ?reg rdf:type <http://purl.obolibrary.org/obo/ERO_0001843>. ?reg dc:identifier ?id. ?reg dc:creator ?cr.?reg cer:geoCoverage ?geo. ?reg cer:country ?pays .?reg cer:validationDate ?date. ?reg dc:creator ?cr. ?reg dc:title ?titre. ?reg foaf:page ?urls
+  }
