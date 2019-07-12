@@ -6,23 +6,23 @@ Mixed with RD connnect Registries metadata
 ## Getting Started
 
 2 blazegraph :
-####BlazeGraphEJP-Orphanet&RDConnect
+#### BlazeGraphEJP-Orphanet&RDConnect
 Mixed metadata between Orphanet and RDConnect, using "diseases" direct links (diseases mapped to the resources, using Orphacodes)
 
 
-####BlazeGraphEJP-Orphanet-Inference
+#### BlazeGraphEJP-Orphanet-Inference
 Registries metadata from Orphanet only, using "diseases" links based on the ORDO classification (inference) : direct links to diseases plus higher disorder concepts
 
-####VirtualCatalogue.owl
+####V irtualCatalogue.owl
 OWL object properties for sparql queries
 
-####VirtualPlatformRest.war
+#### VirtualPlatformRest.war
 Web services with examples
 
-####UrlREst.txt
+#### UrlREst.txt
 Web services urls
 
-####SparqlHack.txt
+#### SparqlHack.txt
 Sparql queries examples
 
 ### Prerequisites
