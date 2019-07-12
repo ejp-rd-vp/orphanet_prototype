@@ -13,7 +13,7 @@ Mixed metadata between Orphanet and RDConnect, using "diseases" direct links (di
 #### BlazeGraphEJP-Orphanet-Inference
 Registries metadata from Orphanet only, using "diseases" links based on the ORDO classification (inference) : direct links to diseases plus higher disorder concepts
 
-####V irtualCatalogue.owl
+#### VirtualCatalogue.owl
 OWL object properties for sparql queries
 
 #### VirtualPlatformRest.war
