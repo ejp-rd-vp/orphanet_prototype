@@ -1,12 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.orpha.net/EJP/VirtualCatalogue/"
-     xml:base="http://www.orpha.net/EJP/VirtualCatalogue/"
+<rdf:RDF xmlns="http://purl.org/ejp-rd/vocabulary/"
+     xml:base="http://purl.org/ejp-rd/vocabulary/"
+     xmlns:dct="http://purl.org/dc/terms"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.ejprarediseases.org/EJP/VirtualCatalogue/"/>
+    <owl:Ontology rdf:about="http://purl.org/ejp-rd/vocabulary/"/>
     
 
 
@@ -21,68 +22,45 @@
     
 
 
-    <!-- http://www.ejprarediseases.org/EJP/VirtualCatalogue/isRelatedTo -->
+    <!-- http://purl.org/dc/elements/1.1/coverage -->
 
-    <owl:ObjectProperty rdf:about="http://www.ejprarediseases.org/EJP/VirtualCatalogue/isRelatedTo"/>
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/elements/1.1/coverage"/>
     
 
 
-    <!-- http://www.ejprarediseases.org/EJP/VirtualCatalogue/isRelatedToInferredParent -->
+    <!-- http://purl.org/dc/terms/publisher -->
 
-    <owl:ObjectProperty rdf:about="http://www.ejprarediseases.org/EJP/VirtualCatalogue/isRelatedToInferredParent"/>
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/publisher"/>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Data properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://purl.org/dc/terms/spatial -->
 
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/spatial"/>
     
 
 
-    <!-- http://purl.org/dc/elements/1.1/creator -->
+    <!-- http://purl.org/ejp-rd/vocabulary/populationCoverage -->
 
-    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    <owl:ObjectProperty rdf:about="http://purl.org/ejp-rd/vocabulary/populationCoverage"/>
     
 
 
-    <!-- http://purl.org/dc/elements/1.1/identifier -->
+    <!-- http://www.w3.org/2004/02/skos/core#inConceptSchema -->
 
-    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/identifier"/>
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#inConceptSchema"/>
     
 
 
-    <!-- http://purl.org/dc/elements/1.1/title -->
+    <!-- http://www.w3.org/ns/dcat#dataset -->
 
-    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/dcat#dataset"/>
     
 
 
-    <!-- http://www.ejprarediseases.org/EJP/VirtualCatalogue/country -->
+    <!-- http://www.w3.org/ns/dcat#theme -->
 
-    <owl:DatatypeProperty rdf:about="http://www.ejprarediseases.org/EJP/VirtualCatalogue/country"/>
-    
-
-
-    <!-- http://www.ejprarediseases.org/EJP/VirtualCatalogue/geoCoverage -->
-
-    <owl:DatatypeProperty rdf:about="http://www.ejprarediseases.org/EJP/VirtualCatalogue/geoCoverage"/>
-    
-
-
-    <!-- http://www.ejprarediseases.org/EJP/VirtualCatalogue/validationDate -->
-
-    <owl:DatatypeProperty rdf:about="http://www.ejprarediseases.org/EJP/VirtualCatalogue/validationDate"/>
-    
-
-
-    <!-- http://xmlns.com/foaf/0.1/page -->
-
-    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/page"/>
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/dcat#theme"/>
     
 
 
@@ -97,19 +75,39 @@
     
 
 
-    <!-- http://edamontology.org/topic_3337 -->
+    <!-- http://purl.org/ejp-rd/vocabulary/CatalogOfRegistries -->
 
-    <owl:Class rdf:about="http://edamontology.org/topic_3337">
-        <rdfs:label xml:lang="en">BioBank</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/CatalogOfRegistries"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ERO_0001843 -->
+    <!-- http://purl.org/ejp-rd/vocabulary/DiseaseCode -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0001843">
-        <rdfs:label xml:lang="en">Registry</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/DiseaseCode"/>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/DiseaseCodeSystem -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/DiseaseCodeSystem"/>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Location -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Location"/>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/Organisation -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/Organisation"/>
+    
+
+
+    <!-- http://purl.org/ejp-rd/vocabulary/PatientRegistryDataset -->
+
+    <owl:Class rdf:about="http://purl.org/ejp-rd/vocabulary/PatientRegistryDataset"/>
 </rdf:RDF>
 
 
