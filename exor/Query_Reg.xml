@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JDBORGenerate>
+<GeneratorFilter>
+<PivotObjectFilters>
+<Registry_biobankPathFilter>
+<AndFilter>
+<PathExprFilter path="registry_biobank.registry_biobanktypeflag.value" op="=" value="4"/>
+<PathExprFilter path="registry_biobank.registry_biobankstatusflag.value" op="=" value="1"/>
+</AndFilter>
+</Registry_biobankPathFilter>
+</PivotObjectFilters>
+<LinkedObjectFilters>
+<DisorderPathFilter>
+<NotFilter>
+<PathExprFilter path="disorder.id" op="=" value="17158"/>
+</NotFilter>
+</DisorderPathFilter>
+</LinkedObjectFilters>
+</GeneratorFilter>
+<GeneratorParams>
+<Limit filesize="50MB" tagcount="1000000" time="600"/>
+<PivotObject type="registry_biobank"/>
+<Languages>
+<Language iso="en"/>
+</Languages>
+<DisplayItems>
+<DisplayQItem name="registry_biobank" type="obj"/>
+<DisplayQItem name="registry_biobank.expertlink" type="obj"/>
+<DisplayQItem name="registry_biobank.id" type="obj"/>
+<DisplayQItem name="registry_biobank.name_en" type="obj"/>
+<DisplayQItem name="registry_biobank.url" type="obj"/>
+<DisplayQItem name="registry_biobank.validationdate" type="obj"/>
+<DisplayQItem name="registry_biobank.country" type="obj"/>
+<DisplayQItem name="registry_biobank.country.iso" type="obj"/>
+<DisplayQItem name="registry_biobank.disorder" type="obj"/>
+<DisplayQItem name="registry_biobank.geocoverage" type="obj"/>
+<DisplayQItem name="registry_biobank.registry_biobankstatusflag" type="obj"/>
+<DisplayQItem name="registry_biobank.registry_biobanktypeflag" type="obj"/>
+<DisplayQItem name="registry_biobank.registry_biobankstatusflag.id" type="obj"/>
+<DisplayQItem name="registry_biobank.registry_biobankstatusflag.name" type="obj"/>
+<DisplayQItem name="registry_biobank.registry_biobankstatusflag.value" type="obj"/>
+<DisplayQItem name="registry_biobank.registry_biobanktypeflag.id" type="obj"/>
+<DisplayQItem name="registry_biobank.registry_biobanktypeflag.name" type="obj"/>
+<DisplayQItem name="registry_biobank.registry_biobanktypeflag.value" type="obj"/>
+<DisplayQItem name="registry_biobank.geocoverage.id" type="obj"/>
+<DisplayQItem name="registry_biobank.geocoverage.name" type="obj"/>
+<DisplayQItem name="registry_biobank.disorder.id" type="obj"/>
+<DisplayQItem name="registry_biobank.disorder.name" type="obj"/>
+<DisplayQItem name="registry_biobank.disorder.orphanumber" type="obj"/>
+<DisplayQItem name="registry_biobank.country.id" type="obj"/>
+<DisplayQItem name="registry_biobank.country.name" type="obj"/>
+</DisplayItems>
+<Format type="xml"/>
+</GeneratorParams>
+</JDBORGenerate>
