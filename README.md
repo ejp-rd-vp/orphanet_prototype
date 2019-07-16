@@ -1,3 +1,7 @@
+## Online Sparql Endpoint  
+
+http://34.90.29.193/bigdata/#query
+
 # orphanet_prototype
 
 Registries metadata from Orphanet catalog, using Orphanet Rare Disease Ontology (ORDO)
